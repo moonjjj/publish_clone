@@ -73,6 +73,7 @@ body.before-load {
 .local-nav-links a {
 	font-size: 0.8rem;
 }
+/* 그 사이에서 not(괄호)안에 들어가있는거 제외하고 ! css 주기 */
 .local-nav-links a:not(.product-name) {
 	margin-left: 2em;
 }
